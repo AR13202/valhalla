@@ -9,7 +9,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -28,7 +27,6 @@ img{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.5;
 }
 .bgtext{
   position: absolute;
@@ -37,13 +35,14 @@ img{
   font-size: 50px;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: white;
 }
 .b1{
   position: absolute;
   top: 55%;
   left: 50%;
-  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background-color: #555;
   color: white;
   font-size: 16px;
