@@ -6,9 +6,10 @@ function App() {
   
      return<>
      <Navbar />
-      <div className="container">
-        <div className="logo"><img src={Img}  alt="" /></div>
-        <div className="letsStart">HI</div>
+     <div className="container">
+      <img  classname="bgimg" src={Img} />
+      <div className="bgtext"> Navbar</div>
+      <button className="b1">abc</button>
       </div>
      </>
       
